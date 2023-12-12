@@ -1,0 +1,222 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../dist/output.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="//fdn.fontcdn.ir">
+    <link rel="preconnect" href="//v1.fontapi.ir">
+    <link href="https://v1.fontapi.ir/css/Vazir" rel="stylesheet">
+    <title>Product</title>
+</head>
+
+<body>
+    <div class="flex flex-col m-4 space-y-6 lg:p-6 rounded-xl">
+
+        <div class="divider text-[#EEEEEE]"></div>
+        <div class="flex justify-between ">
+            <p>جستجو پیشرفته</p>
+            <div class="bottom-12">
+                <button class="">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M4.07992 15.0498L10.5999 8.5298C11.3699 7.7598 12.6299 7.7598 13.3999 8.5298L19.9199 15.0498"
+                            stroke="#222222" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class="divider text-[#EEEEEE]"></div>
+        <div class="lg:flex lg:flex-row lg:justify-around lg:items-center ">
+            <div class=" lg:w-2/6">
+                <p>جستجو:</p>
+                <input type="text" placeholder="نام محصول مورد نظر خود را جست وجو کنید"
+                    class="w-full border outline-none rounded-xl p-4" />
+            </div>
+
+            <div class="flex flex-row justify-between lg:gap-x-20 mt-4">
+                <div class="dropdown dropdown-bottom space-y-4 ">
+                    <p>وضعیت موجودی کالا:</p>
+                    <label tabindex="0" class="btn m-1">دارای کالا
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M19.9201 8.9502L13.4001 15.4702C12.6301 16.2402 11.3701 16.2402 10.6001 15.4702L4.08008 8.9502"
+                                stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </label>
+
+                </div>
+
+                <div class="dropdown dropdown-bottom space-y-4">
+                    <p>دسته بندی:</p>
+                    <label tabindex="0" class="btn m-1">افت وسم
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M19.9201 8.9502L13.4001 15.4702C12.6301 16.2402 11.3701 16.2402 10.6001 15.4702L4.08008 8.9502"
+                                stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="divider text-[#EEEEEE]"></div>
+        <div class="hidden lg:flex lg:gap-6">
+            <button class="border rounded-full p-3 text-[#083731]">اعمال فیلتر</button>
+            <button class="bg-[#EEEEEE] rounded-full p-4">انصراف</button>
+        </div>
+
+
+
+        <div class="flex flex-wrap items-center justify-between bg-[#f8f9fa] rounded-xl p-1">
+
+            
+
+                <div class="lg:w-3/6 lg:grid p-4">
+                    <p class="flex lg:hidden">مدیریت محصولات</p>
+                    <p class="hidden lg:flex">لیست محصولات</p>
+                </div>
+        
+                    <div class="dropdown dropdown-bottom space-y-4 lg:py-4">
+                        <p class="hidden lg:flex ">نمایش کالا براساس:</p>
+                        <label tabindex="0" class="btn m-1 bg-[#ffffff]">جدیدترین کالاها
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                d="M19.9201 8.9502L13.4001 15.4702C12.6301 16.2402 11.3701 16.2402 10.6001 15.4702L4.08008 8.9502"
+                                stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            </svg>
+                        </label>
+                        <button class="p-4 rounded-full text-white bg-[#083731] hidden lg:flex">افزودن محصول</button>
+                    </div>
+
+                
+
+
+            <div class="flex flex-col mt-6 overflow-x-scroll lg:w-full lg:overflow-hidden">
+                <div class="flex flex-row items-center">
+                    <img src="../images/0-268x299-transformed 3.png" class="w-32 h-32" alt="">
+
+                    <div class="flex flex-col">
+                        <p class="font-bold">حشره کش مایع پرمترین 10 % کشاورز پروپاژیت</p>
+                        <p class="text-[#444444]">سم و افت کش</p>
+                    </div>
+                </div>
+                <div>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>موجودی کالا</th>
+                                <th>کد کالا </th>
+                                <th>قیمت تکی</th>
+                                <th>قیمت گروهی</th>
+                                <th>وضعیت کالا</th>
+                                <th>عملیات</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>۱۲۲۳۳۴۴۵۴۵</td>
+                                <td>19,000,000 تومان</td>
+                                <td>12,000,000تومان</td>
+                                <td><input
+                                        class="mr-2 mt-[0.3rem] h-3.5 w-8 appearance-none rounded-[0.4375rem] bg-neutral-300 before:pointer-events-none before:absolute before:h-3.5 before:w-3.5 before:rounded-full before:bg-transparent before:content-[''] after:absolute after:z-[2] after:-mt-[0.1875rem] after:h-5 after:w-5 after:rounded-full after:border-none after:bg-neutral-100 after:shadow-[0_0px_3px_0_rgb(0_0_0_/_7%),_0_2px_2px_0_rgb(0_0_0_/_4%)] after:transition-[background-color_0.2s,transform_0.2s] after:content-[''] checked:bg-primary checked:after:absolute checked:after:z-[2] checked:after:-mt-[3px] checked:after:ml-[1.0625rem] checked:after:h-5 checked:after:w-5 checked:after:rounded-full checked:after:border-none checked:after:bg-primary checked:after:shadow-[0_3px_1px_-2px_rgba(0,0,0,0.2),_0_2px_2px_0_rgba(0,0,0,0.14),_0_1px_5px_0_rgba(0,0,0,0.12)] checked:after:transition-[background-color_0.2s,transform_0.2s] checked:after:content-[''] hover:cursor-pointer focus:outline-none focus:ring-0 focus:before:scale-100 focus:before:opacity-[0.12] focus:before:shadow-[3px_-1px_0px_13px_rgba(0,0,0,0.6)] focus:before:transition-[box-shadow_0.2s,transform_0.2s] focus:after:absolute focus:after:z-[1] focus:after:block focus:after:h-5 focus:after:w-5 focus:after:rounded-full focus:after:content-[''] checked:focus:border-primary checked:focus:bg-primary checked:focus:before:ml-[1.0625rem] checked:focus:before:scale-100 checked:focus:before:shadow-[3px_-1px_0px_13px_#3b71ca] checked:focus:before:transition-[box-shadow_0.2s,transform_0.2s] dark:bg-neutral-600 dark:after:bg-neutral-400 dark:checked:bg-primary dark:checked:after:bg-primary dark:focus:before:shadow-[3px_-1px_0px_13px_rgba(255,255,255,0.4)] dark:checked:focus:before:shadow-[3px_-1px_0px_13px_#3b71ca]"
+                                        type="checkbox" role="switch" id="flexSwitchCheckDefault" />
+                                    <label class="inline-block pl-[0.15rem] hover:cursor-pointer"
+                                        for="flexSwitchCheckDefault">فعال</label>
+                                </td>
+                                <td>12,000,000تومان</td>
+                                <td><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_1639_803)">
+                                            <path
+                                                d="M7 7H6C5.46957 7 4.96086 7.21071 4.58579 7.58579C4.21071 7.96086 4 8.46957 4 9V18C4 18.5304 4.21071 19.0391 4.58579 19.4142C4.96086 19.7893 5.46957 20 6 20H15C15.5304 20 16.0391 19.7893 16.4142 19.4142C16.7893 19.0391 17 18.5304 17 18V17"
+                                                stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M20.385 6.58511C20.7788 6.19126 21.0001 5.65709 21.0001 5.10011C21.0001 4.54312 20.7788 4.00895 20.385 3.61511C19.9912 3.22126 19.457 3 18.9 3C18.343 3 17.8088 3.22126 17.415 3.61511L9 12.0001V15.0001H12L20.385 6.58511Z"
+                                                stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M16 5L19 8" stroke="black" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_1639_803">
+                                                <rect width="24" height="24" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="flex flex-col mt-6 overflow-x-scroll lg:w-full lg:overflow-hidden">
+                <div class="flex flex-row items-center">
+                    <img src="../images/0-268x299-transformed 3.png" class=" h-32" alt="">
+
+                    <div class="flex flex-col">
+                        <p class="font-bold">حشره کش مایع پرمترین 10 % کشاورز پروپاژیت</p>
+                        <p class="text-[#444444]">سم و افت کش</p>
+                    </div>
+
+                </div>
+                <div class="">
+                    <table class="table ">
+                        <thead>
+                            <tr>
+                                <th>موجودی کالا</th>
+                                <th>کد کالا </th>
+                                <th>قیمت تکی</th>
+                                <th>قیمت گروهی</th>
+                                <th>وضعیت کالا</th>
+                                <th>عملیات</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>۱۲۲۳۳۴۴۵۴۵</td>
+                                <td>19,000,000 تومان</td>
+                                <td>12,000,000تومان</td>
+                                <td class=""><input
+                                        class="mr-2 mt-[0.3rem] h-3.5 w-8 appearance-none rounded-[0.4375rem] bg-neutral-300 before:pointer-events-none before:absolute before:h-3.5 before:w-3.5 before:rounded-full before:bg-transparent before:content-[''] after:absolute after:z-[2] after:-mt-[0.1875rem] after:h-5 after:w-5 after:rounded-full after:border-none after:bg-neutral-100 after:shadow-[0_0px_3px_0_rgb(0_0_0_/_7%),_0_2px_2px_0_rgb(0_0_0_/_4%)] after:transition-[background-color_0.2s,transform_0.2s] after:content-[''] checked:bg-primary checked:after:absolute checked:after:z-[2] checked:after:-mt-[3px] checked:after:ml-[1.0625rem] checked:after:h-5 checked:after:w-5 checked:after:rounded-full checked:after:border-none checked:after:bg-primary checked:after:shadow-[0_3px_1px_-2px_rgba(0,0,0,0.2),_0_2px_2px_0_rgba(0,0,0,0.14),_0_1px_5px_0_rgba(0,0,0,0.12)] checked:after:transition-[background-color_0.2s,transform_0.2s] checked:after:content-[''] hover:cursor-pointer focus:outline-none focus:ring-0 focus:before:scale-100 focus:before:opacity-[0.12] focus:before:shadow-[3px_-1px_0px_13px_rgba(0,0,0,0.6)] focus:before:transition-[box-shadow_0.2s,transform_0.2s] focus:after:absolute focus:after:z-[1] focus:after:block focus:after:h-5 focus:after:w-5 focus:after:rounded-full focus:after:content-[''] checked:focus:border-primary checked:focus:bg-primary checked:focus:before:ml-[1.0625rem] checked:focus:before:scale-100 checked:focus:before:shadow-[3px_-1px_0px_13px_#3b71ca] checked:focus:before:transition-[box-shadow_0.2s,transform_0.2s] dark:bg-neutral-600 dark:after:bg-neutral-400 dark:checked:bg-primary dark:checked:after:bg-primary dark:focus:before:shadow-[3px_-1px_0px_13px_rgba(255,255,255,0.4)] dark:checked:focus:before:shadow-[3px_-1px_0px_13px_#3b71ca]"
+                                        type="checkbox" role="switch" id="flexSwitchCheckDefault" />
+                                    <label class="inline-block pl-[0.15rem] hover:cursor-pointer"
+                                        for="flexSwitchCheckDefault">فعال</label>
+                                </td>
+                                <td>12,000,000تومان</td>
+                                <td><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_1639_803)">
+                                            <path
+                                                d="M7 7H6C5.46957 7 4.96086 7.21071 4.58579 7.58579C4.21071 7.96086 4 8.46957 4 9V18C4 18.5304 4.21071 19.0391 4.58579 19.4142C4.96086 19.7893 5.46957 20 6 20H15C15.5304 20 16.0391 19.7893 16.4142 19.4142C16.7893 19.0391 17 18.5304 17 18V17"
+                                                stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M20.385 6.58511C20.7788 6.19126 21.0001 5.65709 21.0001 5.10011C21.0001 4.54312 20.7788 4.00895 20.385 3.61511C19.9912 3.22126 19.457 3 18.9 3C18.343 3 17.8088 3.22126 17.415 3.61511L9 12.0001V15.0001H12L20.385 6.58511Z"
+                                                stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M16 5L19 8" stroke="black" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_1639_803">
+                                                <rect width="24" height="24" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div> 
+
+    </div>
+
+</body>
+
+</html>
